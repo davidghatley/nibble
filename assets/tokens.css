@@ -1,0 +1,125 @@
+/* Secret Sauce — generated from tokens.json by build.py. Do not edit by hand. */
+/* Fonts: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@1,6..72,400&display=swap"> */
+:root, [data-theme="light"] {
+  --paper: #eeede7;
+  --sheet: #f9f9f5;
+  --ink: #16181d;
+  --ink-muted: #555a61;
+  --rule: #c9c9c0;
+  --rule-faint: #e0e0d8;
+  --cobalt: #2236b0;
+  --cobalt-text: #2236b0;
+  --on-cobalt: #f9f9f5;
+  --cobalt-tint: #dde1f2;
+  --vermilion: #ee5228;
+  --vermilion-text: #b8300c;
+  --on-vermilion: #16181d;
+  --vermilion-tint: #f7dcd2;
+  --sun: #f2c81b;
+  --on-sun: #16181d;
+  --sun-tint: #f6ebbd;
+  --teal: #2f8f9d;
+  --teal-text: #1d6c77;
+  --on-teal: #16181d;
+  --phosphor: #9cbc2c;
+  --phosphor-text: #4f6512;
+  --on-phosphor: #16181d;
+  --focus: var(--cobalt-text);
+  --shadow-press: 0 3px 0 #16181d;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  --paper: #121417;
+  --sheet: #1b1e22;
+  --ink: #ecebe4;
+  --ink-muted: #a2a7ad;
+  --rule: #3a3e44;
+  --rule-faint: #25282d;
+  --cobalt: #3d55d8;
+  --cobalt-text: #9fb0ff;
+  --on-cobalt: #f9f9f5;
+  --cobalt-tint: #1e2444;
+  --vermilion: #ff6a3d;
+  --vermilion-text: #ff8a63;
+  --on-vermilion: #16181d;
+  --vermilion-tint: #3b1e15;
+  --sun: #f5cf2a;
+  --on-sun: #16181d;
+  --sun-tint: #36301a;
+  --teal: #3fb0bd;
+  --teal-text: #6cc8d3;
+  --on-teal: #16181d;
+  --phosphor: #b8d84c;
+  --phosphor-text: #b8d84c;
+  --on-phosphor: #16181d;
+  --focus: var(--cobalt-text);
+  --shadow-press: 0 3px 0 #000000;
+  color-scheme: dark;
+  }
+}
+[data-theme="dark"] {
+  --paper: #121417;
+  --sheet: #1b1e22;
+  --ink: #ecebe4;
+  --ink-muted: #a2a7ad;
+  --rule: #3a3e44;
+  --rule-faint: #25282d;
+  --cobalt: #3d55d8;
+  --cobalt-text: #9fb0ff;
+  --on-cobalt: #f9f9f5;
+  --cobalt-tint: #1e2444;
+  --vermilion: #ff6a3d;
+  --vermilion-text: #ff8a63;
+  --on-vermilion: #16181d;
+  --vermilion-tint: #3b1e15;
+  --sun: #f5cf2a;
+  --on-sun: #16181d;
+  --sun-tint: #36301a;
+  --teal: #3fb0bd;
+  --teal-text: #6cc8d3;
+  --on-teal: #16181d;
+  --phosphor: #b8d84c;
+  --phosphor-text: #b8d84c;
+  --on-phosphor: #16181d;
+  --focus: var(--cobalt-text);
+  --shadow-press: 0 3px 0 #000000;
+  color-scheme: dark;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-none: 0px;
+  --radius-hair: 2px;
+  --radius-hardware: 10px;
+  --radius-disc: 999px;
+  --stretch-condensed: 62%;
+  --stretch-normal: 100%;
+  --stretch-expanded: 125%;
+  --line-hair: 1px;
+  --line-draw: 1.5px;
+  --line-heavy: 3px;
+  --font-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --font-sans: "Archivo", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+}
+.t-display-xl { font-family: var(--font-display); font-size: 120px; line-height: 0.88; font-weight: 900; letter-spacing: -0.03em; }
+.t-display-l { font-family: var(--font-display); font-size: 72px; line-height: 0.9; font-weight: 850; letter-spacing: -0.02em; }
+.t-display-m { font-family: var(--font-display); font-size: 48px; line-height: 0.95; font-weight: 800; letter-spacing: -0.015em; }
+.t-h1 { font-family: var(--font-sans); font-size: 32px; line-height: 1.1; font-weight: 750; letter-spacing: -0.01em; }
+.t-h2 { font-family: var(--font-sans); font-size: 25px; line-height: 1.15; font-weight: 700; }
+.t-h3 { font-family: var(--font-sans); font-size: 20px; line-height: 1.25; font-weight: 650; }
+.t-lead { font-family: var(--font-sans); font-size: 20px; line-height: 1.45; font-weight: 400; }
+.t-body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; font-weight: 400; }
+.t-small { font-family: var(--font-sans); font-size: 13px; line-height: 1.5; font-weight: 400; }
+.t-label { font-family: var(--font-mono); font-size: 11px; line-height: 1.4; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.t-data { font-family: var(--font-mono); font-size: 13px; line-height: 1.45; font-weight: 400; font-variant-numeric: tabular-nums; }
+.t-callout { font-family: var(--font-mono); font-size: 11px; line-height: 1; font-weight: 600; font-variant-numeric: tabular-nums; }
+.t-caption { font-family: var(--font-serif); font-size: 16px; line-height: 1.4; font-weight: 400; font-style: italic; }
